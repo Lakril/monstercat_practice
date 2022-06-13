@@ -262,10 +262,69 @@ textarea {
 }
 
 .triangle-right {
-	width: 0;
-	height: 0;
-	border-top: 25px solid transparent;
-	border-left: 50px solid #555;
-	border-bottom: 25px solid transparent;
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #555;
+  border-bottom: 25px solid transparent;
 }
 
+/* .container {
+  min-height: 100vh;
+  background-image: url("/img/pexels-jessica-lewis-creative-1010519.jpg");
+} */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body { margin: 2em;}
+
+.container {
+  background-color: wheat;
+  font-size: 3em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px 30px 0px;
+  width: 900px;
+  height: 300px;
+  padding: 0px 0px;
+  border: solid 2px brown;
+}
+
+.item {
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  height: 3em;
+  width: 3em;
+  padding-top: 45px;
+  /* margin: 5px ; */
+}
+
+.color1 { background-color: red;}
+.color2 { background-color: green; }
+.color3 { background-color: blue;}
+.color4 { background-color: indigo;}
+.color5 { background-color: violet; }
+.color6 { background-color: darkslategray; }
+.color7 { background-color: rgb(79, 47, 79); }
+.color8 { background-color: rgb(167, 230, 20); }
+.color9 { background-color: rgb(190, 23, 231); }
+
+.container-flex {
+  display: flex; /* Declare a flex container */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; */
+  justify-content: space-between;
+  /* align-items: stretch; */
+  align-self: stretch;
+}
