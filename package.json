@@ -2,7 +2,9 @@
   "name": "monstercat",
   "version": "0.0.1",
   "description": "",
-  "keywords": ["casa"],
+  "keywords": [
+    "casa"
+  ],
   "license": "",
   "author": "JacksonLakril",
   "scripts": {
